@@ -1,6 +1,6 @@
 # Password Strength Calculator
 
-[TODO. There will be project description]
+Программа аналиирует сложность пароля и выводит результат надежности от 1 до 10, где минимальное число - плохой пароль, максимальое - очень надежный
 
 # Project Goals
 
