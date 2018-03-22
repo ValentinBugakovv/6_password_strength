@@ -8,13 +8,13 @@ def get_password_strength(password):
     if password in black_list:
         count = 1
         return count
-    if re.search("\d+", password) is not None:
+    if re.search("\d+", password):
         count += 2
-    if re.search("[A-Z]", password) is not None:
+    if re.search("[A-Z]", password):
         count += 2
-    if re.search("\W", password) is not None:
+    if re.search("\W", password):
         count += 2
-    if re.search("[a-z]", password) is not None:
+    if re.search("[a-z]", password):
         count += 2
     if len(password) >= 10:
         count += 2
